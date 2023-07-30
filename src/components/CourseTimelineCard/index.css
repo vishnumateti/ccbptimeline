@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.title-duration-container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.circle-duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.circle-icon {
+  height: 15px;
+  width: 15px;
+}
+.duration {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.description {
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.tags-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
+.list-container {
+  list-style-type: none;
+  background-color: #f0f4fa;
+  border: 0px none transparent;
+  padding: 3px;
+  margin: 3px;
+}
+.tag-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+@media (min-width: 768px) {
+  .title-duration-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .circle-duration-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

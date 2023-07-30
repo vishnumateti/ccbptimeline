@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.bg-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chrono-container {
+  width: 90%;
+  height: 100vh;
+}
+
+.ccbp-journey {
+  color: #1e293b;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.ccbp-heading {
+  color: #2b237c;
+  font-family: 'Roboto';
+  text-align: center;
+}
